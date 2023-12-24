@@ -10,12 +10,13 @@ const CONFIG = {
     github: "nabioz",
     instagram: "nozberkman",
   },
-  projects: [
-    // {
-    //   name: `morethan-log`,
-    //   href: "https://github.com/morethanmin/morethan-log",
-    // },
-  ],
+  // projects: [
+  //   {
+  //     name: `morethan-log`,
+  //     href: "https://github.com/morethanmin/morethan-log",
+  //   },
+  // ],
+  projects: 0,
   // blog setting (required)
   blog: {
     title: "output space",
