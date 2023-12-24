@@ -11,9 +11,13 @@ type Props = {
 }
 
 const PostHeader: React.FC<Props> = ({ data }) => {
+  console.log(data)
   return (
     <StyledWrapper>
       <h1 className="title">{data.title}</h1>
+      <div className="summary">
+        <p>{data.summary}</p>
+      </div>
       {data.type[0] !== "Paper" && (
         <nav>
           <div className="top">
