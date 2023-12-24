@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "output-space",
-    description: "welcome to output-space!",
+    title: "output space",
+    description: "welcome to output space!",
   },
 
   // CONFIG configration (required)
